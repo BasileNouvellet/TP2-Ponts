@@ -1,0 +1,6 @@
+#1 while génère un warning car la condition de boucle est toujours vrai (booléen true)
+donc on ne sortira jamais de la boucle (problème de boucle infinie). Ici c'est ce que
+l'on veut malgré tout pour afficher continuellement la balle.
+La condition du if permet de générer le rebond si la balle arrive à la bordure de la
+fenêtre.
+

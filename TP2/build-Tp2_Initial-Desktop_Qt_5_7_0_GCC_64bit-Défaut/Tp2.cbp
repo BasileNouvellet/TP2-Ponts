@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Tp2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\Hop\;CMake Files\Tennis\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\Imagine++\;CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\;CMake Files\..\..\..\Qt5.7.0\;CMake Files\..\..\..\Qt5.7.0\5.7\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hop">
+         <Option output="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Hop" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 Hop" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hop/fast">
+         <Option output="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Hop" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 Hop/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Hop/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Tennis">
+         <Option output="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Tennis" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtOpenGL" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/share/Imagine++/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 Tennis" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Tennis/fast">
+         <Option output="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Tennis" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtOpenGL" />
+            <Add directory="/home/basile/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/share/Imagine++/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 Tennis/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/basile/Programmation/TP2/build-Tp2_Initial-Desktop_Qt_5_7_0_GCC_64bit-Défaut/Tennis/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Hop/Hop.cpp">
+         <Option target="Hop"/>
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Tennis/Tennis.cpp">
+         <Option target="Tennis"/>
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Hop/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Hop\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Hop/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Hop\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Tennis/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Tennis\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/Tennis/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Tennis\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/ImagineConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineGraphics.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineOpenGL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/ImagineConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineGraphics.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineOpenGL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../../../usr/share/Imagine++/CMake/UseImagineCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\Imagine++\CMake\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/basile/Programmation/TP2/Tp2_Initial/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
